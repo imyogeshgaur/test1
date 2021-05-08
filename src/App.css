@@ -1,0 +1,47 @@
+.bg-primary{
+  background-color: rgb(24, 55, 141) !important;
+}
+
+.form-control{
+  width: 56vw;
+}
+
+@media (max-width:400px){
+  .card{
+    display: block!important;
+    margin-left: 2.7rem!important;
+  }
+}
+
+.form-control:focus{
+  box-shadow:none !important;
+  border-color:rgb(24, 55, 141) !important;
+}
+
+.carousel-item{
+  background:rgba(0, 0, 0, 0.5)!important
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline:none;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: none;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
